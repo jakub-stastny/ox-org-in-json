@@ -1,3 +1,3 @@
 * About
 
-** TODO Write a description
+[[https://orgmode.org][Org mode]] exporter for Emacs. More details on the input/output formats in my [[https://github.com/jakub-stastny/data.blog][data.blog]] repository, which uses this exporter to export blog posts for my blog.
