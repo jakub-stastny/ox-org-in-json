@@ -1,5 +1,3 @@
-export DENO_INSTALL="/root/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
 export EMACS_SERVER=$(basename $PWD)
 
 if ! test -S /tmp/emacs$(id -u)/$EMACS_SERVER; then
