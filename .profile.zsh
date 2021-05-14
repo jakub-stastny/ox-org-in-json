@@ -14,8 +14,4 @@ fi
 
 e() { (test "$#" -eq 0) && emacsclient -s $EMACS_SERVER src/App.org || emacsclient -s $EMACS_SERVER $@ }
 
-watch() {
-  deno run --allow-read --allow-run bin/watch.ts
-}
-
-echo "\n  $(tput setaf 2)Functions: $(tput setaf 7)watch$(tput sgr0)."
+# echo "\n  $(tput setaf 2)Functions: $(tput setaf 7)watch$(tput sgr0)."
